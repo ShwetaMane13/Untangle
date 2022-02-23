@@ -1,0 +1,207 @@
+#landing-page {
+    width: 1500px;
+    left: 0.1%;
+    height: 745px;
+    /* background-color: aqua; */
+    position: relative;
+
+}
+
+#landing-image {
+    width: 1500px;
+    height: 600px;
+}
+
+#untangle-text{
+    position: absolute;
+    font-size: 100px;
+    color: white;
+    font-family: "Roboto";
+    top: 10%;
+    left: 10%;
+}
+
+#bottom-text{
+    position: absolute;
+    font-family: "Roboto";
+    color: #131313;
+    top: 15%;
+    left: 45%;
+    font-size: 50px;
+    max-width: 20%;
+}
+
+#display{
+    background-color: white;
+    height: 736px;
+}
+
+#divLeft{
+    /* position: absolute; */
+    /* background-color: green; */
+    width: 28%;
+    height: 723px;  
+    margin-left: 2%;
+    border: 0.5px solid rgb(216, 207, 207);
+    /* overflow-y: scroll; */
+    display: flex;
+    flex-direction: column;
+}
+
+#divRight{
+    position: relative;
+    width: 65%;
+    height: 736px;
+    /* background-color: yellow; */
+    left: 33.3%;
+    top: -100%;
+}
+
+#input{
+    position: absolute;
+    top: 1.8%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    border: 0.5px solid rgb(216, 207, 207);
+    outline: rgb(216, 207, 207);
+    color: rgb(145, 139, 139);
+    font-family: "Roboto";
+    text-decoration: none!important; 
+    padding: 2%;
+}
+
+#divFeatures{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 84%;
+    height: 10%;
+    /* border: 0.5px solid rgb(216, 207, 207); */
+    top: 90%;
+    left: 10%;
+}
+
+#submit{
+    position: absolute;
+    border: none;
+    background-color: black;
+    color: white;
+    height: 50%;
+    width: 15%;
+    left: 83%;
+    top: 25%;
+    cursor: pointer;
+}
+
+#textColorOne{
+    position: inherit;
+    width: 2.7%;
+    height: 30%;
+    background-color: #eab595;
+    top: 35%;
+    left: 2%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#textColorTwo{
+    position: inherit;
+    width: 2.7%;
+    height: 30%;
+    background-color: #d87f81;
+    top: 35%;
+    left: 6%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#textColorThree{
+    position: inherit;
+    width: 2.7%;
+    height: 30%;
+    background-color: #ae6378;
+    top: 35%;
+    left: 10%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#textColorFour{
+    position: inherit;
+    width: 2.7%;
+    height: 30%;
+    background-color: #79616f;
+    top: 35%;
+    left: 14%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#textColorFive{
+    position: inherit;
+    width: 2.7%;
+    height: 30%;
+    background-color: #7e9680;
+    top: 35%;
+    left: 18%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#fontSelect{
+    position: inherit;
+    top: 35%;
+    left: 24%;
+    height: 30%;
+    width: 20%;
+    border: 0.5px solid rgb(216, 207, 207);
+    outline: none;
+    cursor: pointer;
+}
+
+#sizeSelect{
+    position: inherit;
+    top: 35%;
+    left: 46%;
+    height: 30%;
+    width: 8%;
+    border: 0.5px solid rgb(216, 207, 207);
+    outline: none;
+    cursor: pointer;
+}
+
+#textBold{
+    position: inherit;
+    left: 56%;
+    top: 33%;
+    height: 30%;
+    width: 3%;
+    cursor: pointer;
+}
+
+#textItalic{
+    position: inherit;
+    left: 60%;
+    top: 33%;
+    height: 31%;
+    width: 3%;
+    cursor: pointer;
+}
+
+#entry{
+    width: 85%;
+    height: 8%;
+    margin-left: 8%;
+    margin-top: 5%;
+    background-color: rgb(145, 139, 139);
+    cursor: pointer;
+}
+
+#entryTitle{
+    position: absolute;
+    color: white;
+    margin-left: 2%;
+    margin-top: 1.2%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 300px;
+    white-space: nowrap;
+}
