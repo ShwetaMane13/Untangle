@@ -59,8 +59,8 @@ window.onload = () => {
     fontTwo.innerText = "Tahoma";
     fontThree.innerText = "Georgia";
     fontFour.innerText = "Trebuchet";
-    textBold.src = "../images/icons8-bold-your-text-field-on-document-file-96.png";
-    textItalic.src = "../images/icons8-italic-96.png";
+    textBold.src = "./images/icons8-bold-your-text-field-on-document-file-96.png";
+    textItalic.src = "./images/icons8-italic-96.png";
     size.innerText = "size";
     sizeOne.innerText = "10";
     sizeTwo.innerText = "12";
